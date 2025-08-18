@@ -1,0 +1,13 @@
+/* Botones */
+.boton_index {
+    @include margin-padding(auto,15px 0, 100%,300px );
+    @include texto(center,1rem);
+    @extend %btn-base;
+   
+}
+ .boton_secciones{
+    @include margin-padding(0,15px 0, 100%,300px );
+    flex: 1;
+    @include texto(center,1rem);
+    @extend %btn-base;
+}

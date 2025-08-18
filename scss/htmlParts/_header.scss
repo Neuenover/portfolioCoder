@@ -1,0 +1,18 @@
+/* Header */
+.encabezado{
+    @include ancho-alto-fondotam-fondopos(100%, 70rem, cover, center);
+    background-image: url(./Img/Fondos/Fondo_de_tituloOP3.jpg);
+    @extend %flex-align;
+} 
+.encabezado_secciones{
+    @include ancho-alto-fondotam-fondopos(auto, auto, cover,center);
+    background-color: $fondotitulos;
+    padding: 2rem 1rem;
+    @extend %flex-align;
+}
+.titulos_secciones{ 
+    @include margin-padding(2rem auto 0 auto,0 1rem, 100%,auto );
+    @include texto(center,4vh);
+    font-style: italic;
+    color:$titulos;
+}

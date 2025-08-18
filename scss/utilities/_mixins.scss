@@ -1,0 +1,17 @@
+// Mixins
+@mixin ancho-alto-fondotam-fondopos($ancho,$alto,$anchofondo,$posfondo){
+    width: $ancho;
+    height: $alto;
+    background-size: $anchofondo;
+    background-position: $posfondo;
+}
+@mixin margin-padding($margen, $padding, $alto, $maxalto){
+    margin: $margen;
+    padding: $padding;
+    width: $alto;
+    max-width: $maxalto;
+}
+@mixin texto($text, $fuente){
+    text-align: $text;
+    font-size: $fuente;
+}

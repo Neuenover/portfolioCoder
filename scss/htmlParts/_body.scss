@@ -1,0 +1,16 @@
+/*body*/
+body {
+    @include margin-padding(0,0, auto,auto);
+    overflow-x: hidden;
+}
+
+.fondo{
+    background-color: $fondo;
+}
+.fondo2{
+    background-color: $fondo;
+}
+
+.lista_simple{
+    list-style: none;
+}

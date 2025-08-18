@@ -1,0 +1,72 @@
+/* mobiles */
+@media (max-width: 600px) {
+    .secBtn {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+        gap: 1rem;
+        width: 100%;
+    }
+    
+    .boton_index {
+        width: 100%;
+        max-width: 300px;
+        font-size: 0.95rem;
+        padding: 12px 0;
+        min-width: 200px;
+    }
+
+    .iconos_Frutas{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        max-width: 15rem; 
+        height: 15rem;
+        object-fit: contain;
+    }
+    .titulos_secciones{
+        font-size: 4vh;
+        font-style: italic;
+        align-items: center;
+        margin: 3rem auto 0 auto;
+        margin-top: 6rem;
+        padding: 0 1rem;              
+        color: $titulos;
+    }
+
+    .secBtn_2 {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        justify-self: start;
+        align-self: start;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 1rem;
+    }
+    .centrado {
+        display: grid;
+        place-items: center; 
+        text-align: center;  
+        gap: 1.5rem;
+    } 
+    .ubi{
+        margin-top: -56rem;
+    }
+    .atencion{
+        margin: -10.5rem;
+    }
+    .carrito{
+        margin: 27rem;
+    }
+    
+    .icono img{
+        width: 5vh;
+        height: 5vh;
+    }
+    .mercado-imagen{
+        max-width: 500px;
+    }
+    
+}

@@ -1,0 +1,44 @@
+/* section */
+.secBtn{
+    @include margin-padding(5rem,0 1rem, 100%,800px);
+    @extend %flex-align;
+    gap: 1.5rem;              
+  }
+  
+  .secBtn_2{
+      @include margin-padding(4rem auto,0 1rem, 100%,800px);
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+  }
+  
+  .secVolver{
+      height: 100vh;
+      position: absolute;
+      top: 50px;
+      left: 0px;
+  }
+  .mercadoSec p{
+      padding: 5px;
+  }
+  .ejemplos{
+      margin-top: 70px;
+      
+  }
+  .ejemplos li{
+      @include margin-padding(40px,10px, auto,auto);
+      font-weight: bolder;
+      font-size: large;
+  }
+  .ejemplos h2{
+      padding: 20px;
+      font-size: 3vh;
+  }
+  .centrado {
+      display: grid;
+      place-items: center; 
+      text-align: center;  
+      gap: 1.5rem;
+  }
+  

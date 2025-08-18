@@ -1,0 +1,14 @@
+// Extenciones
+%flex-align{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+%btn-base{
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color:$btncolor;
+    color: $blanco;
+}

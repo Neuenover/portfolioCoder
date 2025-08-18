@@ -1,0 +1,32 @@
+/* Imagenes */
+.icono{
+    @extend %flex-align;
+    width: 50px; 
+}
+.ubi{
+    margin-top: -29rem;
+}
+.atencion{
+    margin: -8rem;
+}
+.carrito{
+    margin: 13.5rem;
+}
+
+.icono img{
+    @include ancho-alto-fondotam-fondopos(5vh, 5vh, none,none);
+}
+.iconos_Frutas{
+    @include ancho-alto-fondotam-fondopos(30rem, 30rem, none,none);
+    object-fit: contain;
+}
+.mercado-imagen{
+    @extend %flex-align;
+    @include margin-padding(0 auto,1rem, 100%,auto);
+}
+.mercado-imagen img {
+    @include ancho-alto-fondotam-fondopos(100%, auto, none,none);
+    max-width: 600px;
+    display: block;
+}
+  

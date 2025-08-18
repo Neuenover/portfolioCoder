@@ -1,0 +1,20 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import "./scss/utilities/extenciones";
+@import "./scss/utilities/mixins";
+@import "./utilities/variables";
+@import "./htmlParts/body";
+@import "./htmlParts/boostrap";
+@import "./htmlParts/btn";
+@import "./htmlParts/footer";
+@import "./htmlParts/header";
+@import "./htmlParts/img";
+@import "./htmlParts/parrafos";
+@import "./htmlParts/sections";
+@import "./htmlParts/titulo";
+@import "./media/mobile";
+@import "./media/tablet";
+@import "./utilities/fuentes";
